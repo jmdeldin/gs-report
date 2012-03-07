@@ -25,7 +25,8 @@ Finding a Building	Bldg-list	The user is presented with a list of buildings on c
 Finding a Building	Bldg-filter	Once filtered, the user can select the building name to show a map.
 Finding a Building	Bldg-map	This map shows the user's position as a blue orb and his destination as a red pin. The direction to travel is shown as a red arrow.
 Finding a Building	Bldg-done	Once the user arrives at the building, a message will appear as confirmation. The user can choose to look at the floorplan by selecting “View Floorplan”.
-Finding a Building	Bldg-floorplan	The floorplan of Main Hall is displayed. The user can then select “Map” to view the map again or “Done” to go back to the ????????????????????????????????????????.
+Finding a Building	Bldg-floorplan	The floorplan of Main Hall is displayed. The user can then select “Map” to view the map again or “Done” to go back to the main map screen.
+Finding a Building	Map	The main map screen shows the user's current location.
 I'm Bored	Splash	The user launches the application and is then taken to the “Map” tab.
 	Map	From this screen, the user selects “More”.
 	More-init	From this screen, the user selects “I'm Bored”.
