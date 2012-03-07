@@ -1,32 +1,23 @@
-<% load './helpers.rb' %><!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link href="report.css" rel="stylesheet">
-    <title>GrizSpace</title>
-  </head>
-  <body>
-    <header>
-      <hgroup>
-        <h1>GrizSpace</h1>
-        <h2>
-          Group 8: Will Lyon, Jon-Michael Deldin, Jaylene Naylor, Kevin Scott
-        </h2>
-      </hgroup>
-    </header>
+<% load './helpers.rb' %>
+<% i = 0 %>
 
-    <% i = 0 %>
-    <% $scenarios.each do |section, scenario| %>
-    <section>
-      <h1><%= i += 1 %>. <%= section %></h1>
-      <p class="scenario"><b>Scenario:</b> <%= scenario %></p>
-      <% $sections[section].each do |data| %>
-      <section>
-        <%= i data[:img] %>
-        <p><%= data[:desc] %></p>
-      </section>
-      <% end %>
-    </section>
+<% $scenarios.each do |section, scenario| %>
+<div class="page-break-before">&nbsp;</div>
+
+<section class="scenario-section">
+  <h1>Scenario <%= i += 1 %>: <%= section %></h1>
+  <p class="scenario"><b>Scenario:</b> <%= scenario %></p>
+  <div class="page-break-after">&nbsp;</div>
+  <% $sections[section].each_slice(2) do |slice| %>
+  <table>
+    <% slice.each do |data| %>
+      <tr>
+        <td><%= i data[:img] %></td>
+        <td><%= data[:desc] %></p></td>
+      </tr>
     <% end %>
-  </body>
-</html>
+    </table>
+  </section>
+  <% end %>
+</section>
+<% end %>

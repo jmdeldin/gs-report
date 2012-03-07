@@ -1,7 +1,11 @@
 require 'csv'
 
 def i(basename)
-  '<img width="316" alt="" src="%s">' % File.join('img', "#{basename.downcase}.png")
+  fn = File.join('img', "#{basename.downcase}.png")
+
+  s = '<a href="%s" title="View larger">' % fn
+  s += '<img width="200" alt="" src="%s">' % fn
+  s += '</a>'
 end
 
 $sections = {}
