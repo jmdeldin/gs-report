@@ -1,0 +1,8 @@
+Section	Scenario
+Initial Setup	The user has just installed the application through the App Store and launched GrizSpace.
+Adding a Class	The user forgot to add a class during the initial setup. He would like to add ECON 511 to his schedule.
+Finding a Class	The user is undecided about adding ECON 511, so he makes its location a deciding factor and looks it up with GrizSpace.
+Deleting a Class	The user has completed the initial setup and closed the app. After using the app for awhile, the user drops MGMT 101 and would like GrizSpace to be aware of this change.
+Finding a Building	The user wants to know where Main Hall is from his current location across the quad. (He is very new to campus!)
+I'm Bored	The user is looking for something to do on campus.
+Settings	The user wants to customize the settings of the application.

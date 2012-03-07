@@ -1,0 +1,60 @@
+Section	Image	Description
+Initial Setup	Fresh-home	When a user launches the app for the first time, he will be prompted to setup his class schedule. By clicking the “Next” button, he will load the following screen. Clicking “Cancel” will take the user to the “Map” tab.
+Initial Setup	Fresh-add	This screen allows the user to add a course. Clicking “Cancel” returns the user to the “Map” tab. Clicking “Add Course” loads the subject selection screen.
+Initial Setup	Fresh-subject	This screen prompts the user to select a subject for a course. Upon selecting economics as the subject in this list, the user is then taken to the course selection screen. 
+Initial Setup	Fresh-course-blank	Here, the user may change his or her mind by selecting “Course List” (a “back” button) or proceed by typing in the “Course” text field.
+Initial Setup	Fresh-course-select	On this screen, the course select box is shown. Once the user selects a course, he or she must select a section.
+Initial Setup	Fresh-section-select	Similar to the course select box, this screen shows the available sections in a select box. Once a subject is selected, the user can then review the course on the next screen.
+Initial Setup	Fresh-add-review	This screen allows the user to review the class he or she is about to add. Clicking “Add course” will add the course to the user's schedule. The user may choose to add more classes at this time by selecting the “Add Course” button. Selecting “Done entering courses” will bypass adding a course and take them to the next screen.
+Initial Setup	Fresh-interests	On this screen, the user can select any applicable interests for the “I'm Bored” feature. Once they click “Done”, they are taken to the “Map” tab.
+Initial Setup	Fresh-map	On this screen, the user can choose to display all of their classes or display each class individually.
+Adding a Class	Splash	The user launches the application and is then taken to the “Map” tab.
+Adding a Class	Map	From this screen, the user selects “Find Course”.
+Adding a Class	Find-subject	The user must select a subject in order to search for a class. Subjects can also be filtered by typing part of the name in, as shown in the next screen.
+Adding a Class	Find-subject-filter	Filtering the subject list by name is shown. The user only had to type “Eco” to limit the results. Selecting a subject will take the user to the next screen.
+Adding a Class	Find-course-blank	On this screen, the user needs to select a course name. By selecting the “Course” input, a select box will appear (next screen).
+Adding a Class	Find-course-select	The user must select a course from the select box.
+Adding a Class	Find-course-scroll	The user can scroll to the bottom of the select box to add a class.
+Adding a Class	Find-course-section	The user can select a section from a select box.
+Adding a Class	Find-course-complete	At this point, the user has been shown the details of a class and can now find it or add the course to his schedule. In this case, the user selects “Add to Course List”.
+Adding a Class	Find-course-map	After adding the class, the user is then shown the map. At this time, he selects “Done”, which returns him to his course list.
+Adding a Class	Add-course-list	ECON 511 is now shown in his course list.
+Finding a Building	Splash	The user launches the application and is then taken to the “Map” tab.
+Finding a Building	Map	From this screen, the user selects “Find Building”.
+Finding a Building	Bldg-list	The user is presented with a list of buildings on campus. He can also filter this list with the search box.
+Finding a Building	Bldg-filter	Once filtered, the user can select the building name to show a map.
+Finding a Building	Bldg-map	This map shows the user's position as a blue orb and his destination as a red pin. The direction to travel is shown as a red arrow.
+Finding a Building	Bldg-done	Once the user arrives at the building, a message will appear as confirmation. The user can choose to look at the floorplan by selecting “View Floorplan”.
+Finding a Building	Bldg-floorplan	The floorplan of Main Hall is displayed. The user can then select “Map” to view the map again or “Done” to go back to the ????????????????????????????????????????.
+I'm Bored	Splash	The user launches the application and is then taken to the “Map” tab.
+	Map	From this screen, the user selects “More”.
+	More-init	From this screen, the user selects “I'm Bored”.
+	Bored-list	Here, the user is presented with a list of previously completed “I'm Bored” events. The user wants to try something new, and selects “Settings” to change his interests.
+	Bored-select	From this page, the user selects everything because he is looking for anything to do on campus. Once he clicks “Done”, he is presented with a map.
+	Bored-map	This shows the map with interesting events going on. It looks like something is going on in MATH 178!
+		
+		
+		
+		
+		
+		
+Finding a Class	Splash	The user launches the application and is then taken to the “Map” tab.
+Finding a Class	Map	From this screen, the user selects “Find Course”.
+Finding a Class	Find-subject	The user must select a subject in order to search for a class. Subjects can also be filtered by typing part of the name in, as shown in the next screen.
+Finding a Class	Find-subject-filter	Filtering the subject list by name is shown. The user only had to type “Eco” to limit the results. Selecting a subject will take the user to the next screen.
+Finding a Class	Find-course-blank	On this screen, the user needs to select a course name. By selecting the “Course” input, a select box will appear (next screen).
+Finding a Class	Find-course-select	The user must select a course from the select box.
+Finding a Class	Find-course-scroll	The user can scroll to the bottom of the select box to add a class.
+Finding a Class	Find-course-section	The user can select a section from a select box.
+Finding a Class	Find-course-complete	At this point, the user has been shown the details of a class and can now find it or add the course to his schedule. In this case, the user just wants to know where the class is and clicks “Find It!”.
+Finding a Class	Find-course-map	The user is represented by the blue orb, and the red arrow shows which direction he should head in.
+Finding a Class	Find-course-map-complete	The user receives confirmation that he has arrived at the Liberal Arts building. The user wants to know where LA 402 is in the building, so he selects “View Floorplan”.
+Finding a Class	Find-course-floorplan	The floorplan is displayed, and the user can choose to view the map again or view his class list with “Done”.
+Deleting a Class	Splash	After the user has setup their classes and launches the app, he or she will see the splash screen before a map is shown.
+Deleting a Class	Map	This screen shows the user's map. The user selects “Course List” to load the next screen.
+Deleting a Class	Delete-list	This screen shows the current schedule recorded in GrizSpace. By pressing and holding on MGMT 101, the “Delete” icon will appear as in the next screen.
+Deleting a Class	Delete-list-active	From this screen, the user can select “Delete” to delete the class.
+Deleting a Class	Delete-list-done	Once the class is deleted, the user is returned to the class listing where he can make further modifications.
+Settings	More-init	This screen shows the social networking features of the app. From here, the user can select “I'm Bored” to find things to do on campus, or “Photos” to view photos taken near their location. Selecting “Edit” will load the next screen for configuration.
+Settings	More-configure	On this screen, the user can configure the settings for finding things to do (“I'm Bored”), viewing photos, and other functions of the application. The settings are still to be determined, but the user will be able to edit them here. Once he or she selects “Done”, he or she will be taken back to the “More” screen.
+Settings	More-init	After configuration, the user can choose to configure again or view one of the other functions.

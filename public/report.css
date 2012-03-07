@@ -1,0 +1,33 @@
+html {
+    background: white;
+    font: 18px/1.4 'Helvetica Neue'
+}
+
+body {
+    margin: 0.25in;
+}
+
+hgroup h2 {
+    color: #999;
+}
+
+section {
+    page-break-before: always;
+    display: block;
+    clear: both;
+    margin: 0 0 1em;
+}
+
+section section p {
+    margin: 200px 0 0;
+}
+
+section img {
+    float: left;
+}
+
+.scenario {
+    background: #ffe;
+    padding: 1em;
+    font-style: italic;
+}
