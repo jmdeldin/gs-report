@@ -20,11 +20,6 @@
     <section>
       <h1><%= i += 1 %>. <%= section %></h1>
       <p class="scenario"><b>Scenario:</b> <%= scenario %></p>
-      <% unless $sections[section] %>
-      <%= "NO DATA" %>
-      <% next %>
-      <% end %>
-
       <% $sections[section].each do |data| %>
       <section>
         <%= i data[:img] %>
