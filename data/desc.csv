@@ -17,8 +17,7 @@ Adding a Class	Find-course-select	The user must select a course from the select 
 Adding a Class	Find-course-scroll	The user can scroll to the bottom of the select box to add a class.
 Adding a Class	Find-course-section	The user can select a section from a select box.
 Adding a Class	Find-course-complete	At this point, the user has been shown the details of a class and can now find it or add the course to his schedule. In this case, the user selects “Add to Course List”.
-Adding a Class	Find-course-map	After adding the class, the user is then shown the map. At this time, he selects “Done”, which returns him to his course list.
-Adding a Class	Add-course-list	ECON 511 is now shown in his course list.
+Adding a Class	Add-course-list	After adding the class, the updated course list is then displayed. ECON 511 is now shown in the course list.
 Finding a Building	Splash	The user launches the application and is then taken to the “Map” tab.
 Finding a Building	Map	From this screen, the user selects “Find Building”.
 Finding a Building	Bldg-list	The user is presented with a list of buildings on campus. He can also filter this list with the search box.
