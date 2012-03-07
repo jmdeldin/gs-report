@@ -52,9 +52,10 @@ Finding a Class	Find-course-map-complete	The user receives confirmation that he 
 Finding a Class	Find-course-floorplan	The floorplan is displayed, and the user can choose to view the map again or view his class list with “Done”.
 Deleting a Class	Splash	After the user has setup their classes and launches the app, he or she will see the splash screen before a map is shown.
 Deleting a Class	Map	This screen shows the user's map. The user selects “Course List” to load the next screen.
-Deleting a Class	Delete-list	This screen shows the current schedule recorded in GrizSpace. By pressing and holding on MGMT 101, the “Delete” icon will appear as in the next screen.
+Deleting a Class	Delete-list	This screen shows the current schedule recorded in GrizSpace. By swiping backwards over the MGMT 101 listing, the “Delete” icon will appear as in the next screen. (Swiping backwards for this effect is a common iOS interaction.)
 Deleting a Class	Delete-list-active	From this screen, the user can select “Delete” to delete the class.
 Deleting a Class	Delete-list-done	Once the class is deleted, the user is returned to the class listing where he can make further modifications.
-Settings	More-init	This screen shows the social networking features of the app. From here, the user can select “I'm Bored” to find things to do on campus, or “Photos” to view photos taken near their location. Selecting “Edit” will load the next screen for configuration.
-Settings	More-configure	On this screen, the user can configure the settings for finding things to do (“I'm Bored”), viewing photos, and other functions of the application. The settings are still to be determined, but the user will be able to edit them here. Once he or she selects “Done”, he or she will be taken back to the “More” screen.
-Settings	More-init	After configuration, the user can choose to configure again or view one of the other functions.
+Settings	More-init	This screen shows the extra features of the app that can't fit on the tab bar. Selecting “Edit” will load the next screen for configuring the tab bar.
+Settings	More-configure	On this screen, the user can configure the visible tabs by selecting them. Once he or she selects “Done”, he or she will be taken back to the “More” screen. In this case, the user selects “Photos” as the first tab and moved “Map” to the “More” page.
+Settings	More-configure-2	This screen shows the “Photos” tab is now the first, and the “Map” tab has been moved.
+Settings	More-done	This screen shows the “Map” feature is now available through the “More” tab, and that “Photos” is now the first tab. The user can choose to configure again or view another tab.
