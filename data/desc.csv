@@ -44,7 +44,7 @@ Directions to a Class	Dir-list	The user's class list is displayed.
 Directions to Classes from the Map	Splash	The user launches the application and is then taken to the “Map” tab.
 Directions to Classes from the Map	Map	From this screen, the user selects “Next Class”. The user can cycle through classes by repeatedly tapping “Next Class”, as shown in the next screen.
 Directions to Classes from the Map	Find-course-map	Directions to one of the user's classes is shown.
-Directions to Classes from the Map	Find-course-map-complete	The user receives confirmation that he has arrived at the Liberal Arts building. He then selects “Done” to view his course list.
+Directions to Classes from the Map	Find-course-map-complete	The user receives confirmation that he has arrived at the Liberal Arts building. He then selects “Cancel” to view his course list.
 Directions to Classes from the Map	Dir-list	The user can then restart the process by selecting “Map” or viewing an individual course.
 Finding a Class	Splash	The user launches the application and is then taken to the “Map” tab.
 Finding a Class	Map	From this screen, the user selects “Find Course”.
