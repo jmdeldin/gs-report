@@ -31,7 +31,7 @@ I'm Bored	Map	From this screen, the user selects “More”.
 I'm Bored	More-init	From this screen, the user selects “I'm Bored”.
 I'm Bored	Bored-list	Here, the user is presented with a list of previously completed “I'm Bored” events. The user wants to try something new, and selects “Settings” to change his interests.
 I'm Bored	Bored-select	From this page, the user selects everything because he is looking for anything to do on campus. Once he taps “Done”, he is presented with a map.
-I'm Bored	Bored-map	This shows the map with interesting events going on. It looks like something is going on in MATH 178!
+I'm Bored	Bored-rock	This shows the map with interesting events going on.
 Directions to a Class	Splash	The user launches the application and is then taken to the “Map” tab.
 Directions to a Class	Map	From this screen, the user selects “Course List”.
 Directions to a Class	Dir-list	At this screen, the user selects ECON 511. This loads the next screen:
