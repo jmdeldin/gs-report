@@ -27,11 +27,19 @@ Finding a Building	Bldg-done	Once the user arrives at the building, a message wi
 Finding a Building	Bldg-floorplan	The floorplan of Main Hall is displayed. The user can then select “Map” to view the map again or “Done” to go back to the main map screen.
 Finding a Building	Map	The main map screen shows the user's current location.
 I'm Bored	Splash	The user launches the application and is then taken to the “Map” tab.
-	Map	From this screen, the user selects “More”.
-	More-init	From this screen, the user selects “I'm Bored”.
-	Bored-list	Here, the user is presented with a list of previously completed “I'm Bored” events. The user wants to try something new, and selects “Settings” to change his interests.
-	Bored-select	From this page, the user selects everything because he is looking for anything to do on campus. Once he clicks “Done”, he is presented with a map.
-	Bored-map	This shows the map with interesting events going on. It looks like something is going on in MATH 178!
+I'm Bored	Map	From this screen, the user selects “More”.
+I'm Bored	More-init	From this screen, the user selects “I'm Bored”.
+I'm Bored	Bored-list	Here, the user is presented with a list of previously completed “I'm Bored” events. The user wants to try something new, and selects “Settings” to change his interests.
+I'm Bored	Bored-select	From this page, the user selects everything because he is looking for anything to do on campus. Once he clicks “Done”, he is presented with a map.
+I'm Bored	Bored-map	This shows the map with interesting events going on. It looks like something is going on in MATH 178!
+Directions to a Class	Splash	The user launches the application and is then taken to the “Map” tab.
+Directions to a Class	Map	From this screen, the user selects “Course List”.
+Directions to a Class	Dir-list	At this screen, the user selects ECON 511. This loads the next screen:
+Directions to a Class	Dir-detail	From here, the user can select “Find It!” to view the class on a map.
+Directions to a Class	Find-course-map	The user is represented by the blue orb, and the red arrow shows which direction he should head in.
+Directions to a Class	Find-course-map-complete	The user receives confirmation that he has arrived at the Liberal Arts building. The user wants to know where LA 402 is in the building, so he selects “View Floorplan”.
+Directions to a Class	Find-course-floorplan	The floorplan is displayed, and the user can choose to view the map again or view his class list with “Done”. The user selects “Done”.
+Directions to a Class	Dir-list	The user's class list is displayed.
 		
 		
 		
