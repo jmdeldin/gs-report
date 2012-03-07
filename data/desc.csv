@@ -1,12 +1,12 @@
 Section	Image	Description
-Initial Setup	Fresh-home	When a user launches the app for the first time, he will be prompted to setup his class schedule. By clicking the “Next” button, he will load the following screen. Clicking “Cancel” will take the user to the “Map” tab.
-Initial Setup	Fresh-add	This screen allows the user to add a course. Clicking “Cancel” returns the user to the “Map” tab. Clicking “Add Course” loads the subject selection screen.
+Initial Setup	Fresh-home	When a user launches the app for the first time, he will be prompted to setup his class schedule. By tapping the “Next” button, he will load the following screen. Tapping “Cancel” will take the user to the “Map” tab.
+Initial Setup	Fresh-add	This screen allows the user to add a course. Tapping “Cancel” returns the user to the “Map” tab. Tapping “Add Course” loads the subject selection screen.
 Initial Setup	Fresh-subject	This screen prompts the user to select a subject for a course. Upon selecting economics as the subject in this list, the user is then taken to the course selection screen. 
 Initial Setup	Fresh-course-blank	Here, the user may change his or her mind by selecting “Course List” (a “back” button) or proceed by typing in the “Course” text field.
 Initial Setup	Fresh-course-select	On this screen, the course select box is shown. Once the user selects a course, he or she must select a section.
 Initial Setup	Fresh-section-select	Similar to the course select box, this screen shows the available sections in a select box. Once a subject is selected, the user can then review the course on the next screen.
-Initial Setup	Fresh-add-review	This screen allows the user to review the class he or she is about to add. Clicking “Add course” will add the course to the user's schedule. The user may choose to add more classes at this time by selecting the “Add Course” button. Selecting “Done entering courses” will bypass adding a course and take them to the next screen.
-Initial Setup	Fresh-interests	On this screen, the user can select any applicable interests for the “I'm Bored” feature. Once they click “Done”, they are taken to the “Map” tab.
+Initial Setup	Fresh-add-review	This screen allows the user to review the class he or she is about to add. Tapping “Add course” will add the course to the user's schedule. The user may choose to add more classes at this time by selecting the “Add Course” button. Selecting “Done entering courses” will bypass adding a course and take them to the next screen.
+Initial Setup	Fresh-interests	On this screen, the user can select any applicable interests for the “I'm Bored” feature. Once they tap “Done”, they are taken to the “Map” tab.
 Initial Setup	Fresh-map	On this screen, the user can choose to display all of their classes or display each class individually.
 Adding a Class	Splash	The user launches the application and is then taken to the “Map” tab.
 Adding a Class	Map	From this screen, the user selects “Find Course”.
@@ -30,7 +30,7 @@ I'm Bored	Splash	The user launches the application and is then taken to the “M
 I'm Bored	Map	From this screen, the user selects “More”.
 I'm Bored	More-init	From this screen, the user selects “I'm Bored”.
 I'm Bored	Bored-list	Here, the user is presented with a list of previously completed “I'm Bored” events. The user wants to try something new, and selects “Settings” to change his interests.
-I'm Bored	Bored-select	From this page, the user selects everything because he is looking for anything to do on campus. Once he clicks “Done”, he is presented with a map.
+I'm Bored	Bored-select	From this page, the user selects everything because he is looking for anything to do on campus. Once he taps “Done”, he is presented with a map.
 I'm Bored	Bored-map	This shows the map with interesting events going on. It looks like something is going on in MATH 178!
 Directions to a Class	Splash	The user launches the application and is then taken to the “Map” tab.
 Directions to a Class	Map	From this screen, the user selects “Course List”.
@@ -53,7 +53,7 @@ Finding a Class	Find-course-blank	On this screen, the user needs to select a cou
 Finding a Class	Find-course-select	The user must select a course from the select box.
 Finding a Class	Find-course-scroll	The user can scroll to the bottom of the select box to add a class.
 Finding a Class	Find-course-section	The user can select a section from a select box.
-Finding a Class	Find-course-complete	At this point, the user has been shown the details of a class and can now find it or add the course to his schedule. In this case, the user just wants to know where the class is and clicks “Find It!”.
+Finding a Class	Find-course-complete	At this point, the user has been shown the details of a class and can now find it or add the course to his schedule. In this case, the user just wants to know where the class is and taps “Find It!”.
 Finding a Class	Find-course-map	The user is represented by the blue orb, and the red arrow shows which direction he should head in.
 Finding a Class	Find-course-map-complete	The user receives confirmation that he has arrived at the Liberal Arts building. The user wants to know where LA 402 is in the building, so he selects “View Floorplan”.
 Finding a Class	Find-course-floorplan	The floorplan is displayed, and the user can choose to view the map again or view his class list with “Done”.
