@@ -5,5 +5,6 @@ Finding a Class	The user is undecided about adding ECON 511, so he makes its loc
 Deleting a Class	The user has completed the initial setup and closed the app. After using the app for awhile, the user drops MGMT 101 and would like GrizSpace to be aware of this change.
 Finding a Building	The user wants to know where Main Hall is from his current location across the quad. (He is very new to campus!)
 Directions to a Class	The user has already completed the initial setup and now needs directions to ECON 511.
+Directions to Classes from the Map	The user wants directions to his next class from the map screen.
 I'm Bored	The user is looking for something to do on campus.
 Settings	The user wants to customize the order of the application tabs.

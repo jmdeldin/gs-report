@@ -40,9 +40,9 @@ Directions to a Class	Find-course-map	The user is represented by the blue orb, a
 Directions to a Class	Find-course-map-complete	The user receives confirmation that he has arrived at the Liberal Arts building. The user wants to know where LA 402 is in the building, so he selects “View Floorplan”.
 Directions to a Class	Find-course-floorplan	The floorplan is displayed, and the user can choose to view the map again or view his class list with “Done”. The user selects “Done”.
 Directions to a Class	Dir-list	The user's class list is displayed.
-		
-		
-		
+Directions to Classes from the Map	Splash	The user launches the application and is then taken to the “Map” tab.
+Directions to Classes from the Map	Map	From this screen, the user selects “Next Class”. The user can cycle through classes by repeatedly tapping “Next Class”, as shown in the next screen.
+Directions to Classes from the Map	Find-course-map	Directions to one of the user's classes is shown.
 		
 		
 		
