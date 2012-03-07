@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 require 'csv'
 
 def i(basename)
@@ -13,8 +14,9 @@ $scenarios = {}
 
 CSV.foreach('data/desc.csv', :headers => true, :col_sep => "\t") do |row|
   next unless row['Section']
+  desc = row['Description'].gsub(/“/, "&#8220").gsub(/”/, "&#8221;").gsub(/--/, "&#8211;")
   ($sections[row['Section'].strip] ||= []) << {
-    :img => row['Image'], :desc => row['Description']
+    :img => row['Image'], :desc => desc
   }
 end
 
