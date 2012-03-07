@@ -1,6 +1,6 @@
 html {
     background: white;
-    font: 18px/1.4 'Helvetica Neue'
+    font: 12pt/1.4 'Palatino';
 }
 
 body {
@@ -12,22 +12,48 @@ hgroup h2 {
 }
 
 section {
-    page-break-before: always;
     display: block;
     clear: both;
     margin: 0 0 1em;
 }
 
+.page-break-before {
+    display: block;
+    page-break-before: always;
+}
+
+.page-break-after {
+    display: block;
+    page-break-after: always;
+
+}
 section section p {
-    margin: 200px 0 0;
+
 }
 
 section img {
-    float: left;
+    display: block;
 }
 
+table td {
+    vertical-align: middle;
+}
 .scenario {
     background: #ffe;
     padding: 1em;
+    font-style: italic;
+    font-size: 120%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+section h1 {
+    border-bottom: 4px solid #ccc;
+}
+
+ol ol { list-style-type: lower-alpha }
+
+#feedback ul ul {
     font-style: italic;
 }
